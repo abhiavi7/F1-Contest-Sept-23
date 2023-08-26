@@ -1,0 +1,284 @@
+
+.navbar{
+  background-image: url("nav.png");
+ 
+ 
+}
+
+.navbar>a{
+    
+}
+
+.search-div{
+    padding: 0px 9px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+}
+
+.search-div>input{
+    border: none;
+    background-color: transparent;
+    width: 15vw;
+    height: 45px;
+}
+.sign-in{
+    background-color: #f94a3d !important;
+    font-size: 20px !important;
+    border-color: #f94a3d;
+}
+
+a:link {
+    font-size: 20px;
+    color: #212244;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+ 
+.explore-btns{
+    
+    position:relative; 
+    left:-1470px; top:700px;
+}
+
+.aboutuscontainer{
+    
+    font-size: 50px;
+    justify-content:between;
+     align-items:center ;
+
+}
+.topic{
+    align-items: center;
+}
+
+
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    
+}
+ul{
+    margin-right:5px;
+    margin: 0!important;
+    list-style-type: none ;
+    display:flex;
+    margin: 0 0 0 -0.8125em;
+    justify-content:center;
+    align-items: center;
+}
+li{
+    margin-right:5px;
+   
+}
+li:active {
+
+    color: #f94a3d;
+    
+}
+
+.fooditems{
+    display:flex;
+    margin: 0!important;
+    justify-content:center;
+    align-items: center;
+    gap: 25px;
+}
+#fastfood{
+    color: #f94a3d;
+}
+
+section.app {
+    margin: 10rem 5%;
+    border-radius: 3rem;
+    background-image: url("boxchicken.png");
+    background-color: #e93b2f;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+    padding: 22rem 0;
+  }
+  
+  section.app .image {
+    position: absolute;
+    left: 15%;
+  }
+  
+  section.app .image img {
+    padding-bottom:300px;
+    width: 100%;
+  }
+  
+  section.app .content {
+    position: absolute;
+    right: 5%;
+    width: 45%;
+  }
+  
+  section.app .content h3 {
+    color: aliceblue;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+  
+  section.app .content p {
+    color: aliceblue;
+    margin-bottom: 3rem;
+  }
+  
+  section.app .content .links img {
+    margin-right: 3rem;
+  }
+  
+  @media (max-width: 1200px) {
+    section.app .image {
+      max-width: 20rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    section.app .image {
+      display: none;
+    }
+  
+    section.app {
+      grid-template-columns: 1fr;
+      padding: 20rem 0;
+      margin: 5rem 9%;
+    }
+  
+    section.app .content {
+      width: 85%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    section.app .content h3 {
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    section.app .content .links img {
+      width: 8rem;
+      margin-right: 0;
+    }
+  }
+  
+
+
+  .my-footer{
+    width: 85%;
+    margin: auto;
+}
+.row-3{
+    text-align: justify;
+    color: #666666;
+    font-size: 15px;
+    padding:10px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.row-2>p{
+    text-align: justify;
+    color: #666666;
+    font-size: 12px;
+    width: 35%;
+}
+
+.download-section>p{
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 16px;
+}
+.download-btns{
+    background-color: #213b50;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+}
+.social-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-inline: 10px;
+}
+
+.social{
+    display: flex;
+}
+
+.row-1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.useful-links{
+    flex: 2;
+}
+
+.categories-links{
+    flex: 30;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 3px 10px;
+    color: #666666;
+    font-size: 14px;
+}
+
+@media screen and (max-width:768px){
+    nav,.hero-section,.row-1{
+        flex-direction: column !important;
+    }
+    .vertical-line,.hero-section>img{
+        display: none !important;
+    }
+    .nav-btns,.navbar>a,.search-div{
+        width: 90%;
+    }
+    .row-1>div,.my-container{
+        margin-top: 20px;
+    }
+    .row-1>div>h2,.row-1>div>h4{
+        text-align: center;
+    }
+    td{
+        text-align: center;
+    }
+    .social{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+   
